@@ -5,8 +5,8 @@ public class Main {
         // параметров программы: начального счёта,
         // суммы пополнения и тп
         int startBalance = 100;
-        int topupAmount = 2_000;
-        int endBalance = (topupAmount > 1_000) ? (startBalance + topupAmount + (topupAmount / 100)) : (startBalance + topupAmount);
+        int topUpAmount = 2_000;
+        int endBalance = (topUpAmount > 1_000) ? (startBalance + topUpAmount + (topUpAmount / 100)) : (startBalance + topUpAmount);
 
         // Условным оператором проверяете, превысила ли
         // сумма пополнения порог, и для этих двух разных
